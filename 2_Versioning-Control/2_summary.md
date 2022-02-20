@@ -37,4 +37,5 @@ Menampilkan branch remote: `git branch -a`
 Pindah branch        : `git checkout <nama branch>`
 Menyatukan branch        : `git merge <nama branch>`
 
+### Visualisasi branching
 ![Visualisasi branching](https://imron02.files.wordpress.com/2014/01/6191e-untitled.png)
