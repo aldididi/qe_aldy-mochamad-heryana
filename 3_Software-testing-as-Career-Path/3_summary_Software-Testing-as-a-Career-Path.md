@@ -15,5 +15,15 @@
 - Berpengalaman menggunakan tracking management tools
 - Bisa mengoperasikan automation test
 
-
 ## Software tester career path
+- Junior QE
+- Quality Engineer
+- Senior QE
+- QE Lead
+- QE Manager
+
+## Software tester have alternate career track, such as
+- Performance tester
+- Penetration Tester
+- System Analyst
+- Scrum Master
