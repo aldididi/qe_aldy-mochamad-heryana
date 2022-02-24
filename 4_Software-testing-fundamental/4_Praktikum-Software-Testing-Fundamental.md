@@ -1,6 +1,6 @@
 # Praktikum Software Testing Fundamental
 ## Soal nomor 1
-![Soal nomor 1](img/Sec4_task1.PNG)
+![Soal nomor 1](../img/Sec4_task1.PNG)
 
 > Pada gambar tersebut menjelaskan tentang hasil dari sebuah coverage test yang menguji class entity dan service pada sebuah program. Hasil dari test class entity menghasilkan 67% line coverage dan 67% mutation coverage, selanjutnya hasil dari test class service 100% line coverage dan 75% mutation coverage.
 
