@@ -12,7 +12,7 @@ Test scenario merupakan serangkaian step yang dapat dieksekusi, memiliki 2 tipe 
 Dalam test case berisi test case id, test title, type, pre-condition, test data, test step, actual reslut dan status.
 
 Contoh test scenario dan test case.
-> 1. Test Scenario
+### 1. Test Scenario
 Test case:
     - Masukan email valid dan password valid
     - Masukan email valid dan password salah
