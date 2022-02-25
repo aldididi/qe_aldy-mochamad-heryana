@@ -20,5 +20,4 @@ Test case
 - Masukan email salah dan password valid
 
 Secara singkat
-> Test scenario untuk "apa yang akan diuji"
-> Test case untuk "Bagaimana cara mengujinya"
+> Test scenario untuk "apa yang akan diuji", dan Test case untuk "Bagaimana cara mengujinya".
