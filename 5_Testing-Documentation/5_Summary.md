@@ -13,11 +13,11 @@ Dalam test case berisi test case id, test title, type, pre-condition, test data,
 
 Contoh test scenario dan test case.
 ### 1. Test Scenario
-Test case:
-    - Masukan email valid dan password valid
-    - Masukan email valid dan password salah
-    - Masukan email salah dan password salah
-    - Masukan email salah dan password valid
+Test case
+- Masukan email valid dan password valid
+- Masukan email valid dan password salah
+- Masukan email salah dan password salah
+- Masukan email salah dan password valid
 
 Secara singkat
 > Test scenario untuk "apa yang akan diuji"
