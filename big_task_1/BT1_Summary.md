@@ -6,5 +6,5 @@ Ketika sudah memiliki project dengan template SCRUM/KANBAN maka selanjutnya adal
 (/img)
 Story web tokopedia halaman kategori
 
-![Story](/images/1 story.PNG)
+![Story](/images/1_story.PNG)
 
