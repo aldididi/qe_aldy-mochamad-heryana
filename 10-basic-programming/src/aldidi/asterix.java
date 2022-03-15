@@ -6,14 +6,14 @@ public class asterix {
         for (int i=1; i<=height; i++){
             //inden
             for(int inden=1; inden<=height-1; inden++){
-                System.out.print(" ");
+                System.out.print("");
             }
 
             //star
             for (int j=1; j<=i*2-1; j++ ){
-              //  System.out.print("*");
+                System.out.print("*");
             }
-            System.out.print("");
+            System.out.print(" ");
         }
 
 
