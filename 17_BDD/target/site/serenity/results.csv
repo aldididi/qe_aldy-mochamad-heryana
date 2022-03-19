@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","Success login","SUCCESS","2022-03-19T22:43:49.875+07:00[Asia/Jakarta]","0.0","0.16"
+"Login","Failed login wrong password","SUCCESS","2022-03-19T22:43:50.038+07:00[Asia/Jakarta]","0.0","0.02"
+"Login","Failed login wrong email","SUCCESS","2022-03-19T22:43:50.059+07:00[Asia/Jakarta]","0.0","0.02"
+"HomePage","Search","SUCCESS","2022-03-19T22:43:50.087+07:00[Asia/Jakarta]","0.0","0.03"
