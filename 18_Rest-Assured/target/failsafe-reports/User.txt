@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: User
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.376 s <<< FAILURE! - in User
+User.POST - As an admin I have to be able to create new user  Time elapsed: 9.376 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path username doesn't match.
+Expected: aldidi3
+  Actual: null
+
+
