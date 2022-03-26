@@ -29,7 +29,11 @@ Feature: User
     Then I validate the status code for invalid pw is 400
     And validate the data detail after failed login
 #
-
+  Scenario: Delete
+  Given I set an endpoint for delete
+  When I request delete with userId
+  Then I validate the status code delete is 1207
+  And validate the delete message
 #
 #  Scenario: GET - As a user I have to be able to get detail user
 #    Given I set an endpoint for GET detail user

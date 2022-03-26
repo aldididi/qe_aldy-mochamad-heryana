@@ -1,18 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="User" skipped="0" tests="4" time="9.62" timestamp="2022-03-25 10:48:45"><testcase name="POST - As an admin I have to be able to create new user"/><testcase name="POST - Cannot create new existing user"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;406&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="User" skipped="0" tests="5" time="15.38" timestamp="2022-03-26 07:10:51"><testcase name="POST - As an admin I have to be able to create new user"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;406&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;201&gt; but was &lt;406&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;201&gt; but was &lt;406&gt;.
-
-io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-user.Post.validateStatusCodePostNewUser(Post.java:33)
-stepdefinitions.UserStep.iValidateTheStatusCodeIs(UserStep.java:37)
-✽.I validate the status code is 406(file:///home/aldidi/Documents/bootcampQA/qe_aldy-mochamad-heryana/18_Rest-Assured/src/test/resources/user/user.feature:16)
-</system-err></testcase><testcase name="POST - As a user I have to be able to generate token"/><testcase name="POST - As an admin I can't create new user with invalid password"/></testsuite>
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
+user.Post.validateStatusCodePostNewUser(Post.java:34)&#13;
+stepdefinitions.UserStep.iValidateTheStatusCodeIs(UserStep.java:38)&#13;
+✽.I validate the status code is 201(file:///C:/Alterra/qe_aldy-mochamad-heryana/18_Rest-Assured/src/test/resources/user/user.feature:9)&#13;
+</system-err></testcase><testcase name="POST - Cannot create new existing user"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;406&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;406&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;406&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
+user.Post.validateStatusCodePostNewUser(Post.java:34)&#13;
+stepdefinitions.UserStep.iValidateTheStatusCodeIs(UserStep.java:38)&#13;
+✽.I validate the status code is 406(file:///C:/Alterra/qe_aldy-mochamad-heryana/18_Rest-Assured/src/test/resources/user/user.feature:16)&#13;
+</system-err></testcase><testcase name="POST - As a user I have to be able to generate token"/><testcase name="POST - As an admin I can't create new user with invalid password"/><testcase name="Delete"/></testsuite>
