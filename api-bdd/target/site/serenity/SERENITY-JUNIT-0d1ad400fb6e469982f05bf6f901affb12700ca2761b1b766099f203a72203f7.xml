@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="create user" skipped="0" tests="1" time="0.34" timestamp="2022-03-24 09:17:30"><testcase name="POST - Create User Positive"><error type="java.lang.NullPointerException"/><system-err>null
+starter.stepdefinitions.CreateUserSteps.iSetUsername(CreateUserSteps.java:16)
+✽.I set username(file:///home/aldidi/Documents/bootcampQA/qe_aldy-mochamad-heryana/18_Rest-Assured-API/src/test/resources/books/createUser.feature:8)
+</system-err></testcase></testsuite>

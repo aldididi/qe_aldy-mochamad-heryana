@@ -1,0 +1,4 @@
+demoQa/pages/HomePage.class
+CucumberTestSuite.class
+demoQa/pages/LoginPage.class
+demoQa/stepsDefinition/LoginSteps.class
